@@ -6,10 +6,10 @@ All games I tried using Wine/DXVK already have VSync enabled preventing screen t
 This script can be used within Lutris' System options to execute before a game launches and after it closes. That way NVidia's FCP will be automatically off only while you're playing. 
 
 ---
-##Example with FCP kept on
+## Example with FCP kept on
 
 ![FCPOn](https://github.com/Snaggly/NVidia-Composition-AutoTurner/raw/master/FCP-On.gif)
 
-##Emaple with FCP turned on
+## Emaple with FCP turned off
 
 ![FCPOff](https://github.com/Snaggly/NVidia-Composition-AutoTurner/raw/master/FCP-Off.gif)
