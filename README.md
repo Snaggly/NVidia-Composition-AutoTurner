@@ -13,3 +13,8 @@ This script can be used within Lutris' System options to execute before a game l
 ## Emaple with FCP turned off
 
 ![FCPOff](https://github.com/Snaggly/NVidia-Composition-AutoTurner/raw/master/FCP-Off.gif)
+
+(Game: Megadimension Neptunia VIIR, Idea Factory/Compile Heart)
+
+# Useage
+On Lutris under System options, simply add the path to DisableFCP.sh script to Pre-launch script to disable FSC when a game launches. Add the path to EnableFCP.sh script to Post-exit script to reenable ForceCompositionPiple on game exit. Be sure That both scripts correctly reference the path to NVidiaFCP.sh. I've placed mine right under home. To renable ForceFullCompositionPipline change the passing arguments of EnableFCP.sh from "On" to "On Full". The script may looks like this: "~/NVidiaFCP.sh On Full".
